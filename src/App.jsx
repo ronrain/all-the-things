@@ -62,6 +62,14 @@ const App = () => {
     },
   ]
 
+  const ronsThings = [
+    {
+      name: "Healthy lifestyle",
+      image: "https://imgs.xkcd.com/comics/exercise.png",  
+      attributes: ["sun", "diet", "lifting weights", "running"],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
